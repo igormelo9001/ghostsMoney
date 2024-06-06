@@ -1,0 +1,110 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fff;
+    margin: 0;
+}
+
+.maze {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    border: 2px solid #000;
+    background-color: #e0e0e0;
+}
+
+.block {
+    position: absolute;
+    background-color: #000;
+}
+
+.b1 {
+    width: 20px;
+    height: 200px;
+    top: 0;
+    left: 0;
+}
+
+.b2 {
+    width: 100px;
+    height: 20px;
+    top: 0;
+    left: 20px;
+}
+
+.b3 {
+    width: 50px;
+    height: 100px;
+    top: 20px;
+    left: 20px;
+}
+
+.b4 {
+    width: 50px;
+    height: 100px;
+    top: 20px;
+    left: 70px;
+}
+
+.b5 {
+    width: 20px;
+    height: 50px;
+    top: 20px;
+    left: 120px;
+}
+
+.b6 {
+    width: 50px;
+    height: 20px;
+    top: 70px;
+    left: 120px;
+}
+
+.b7 {
+    width: 150px;
+    height: 20px;
+    bottom: 0;
+    left: 20px;
+}
+
+.b8 {
+    width: 50px;
+    height: 20px;
+    bottom: 20px;
+    left: 20px;
+}
+
+.b9 {
+    width: 50px;
+    height: 20px;
+    bottom: 20px;
+    right: 20px;
+}
+
+.b10 {
+    width: 100px;
+    height: 20px;
+    bottom: 40px;
+    left: 20px;
+}
+
+.character, .monster, .money {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+}
+
+.character {
+    background-color: blue;
+}
+
+.monster {
+    background-color: red;
+}
+
+.money {
+    color: green;
+    font-size: 20px;
+}
